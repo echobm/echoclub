@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/echoclub_question/echoclub_question_domain/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/echoclub_question/echoclub_question_api/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/echoclub_question/echoclub_question_application/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/echoclub_question/echoclub_question_common/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/echoclub_question/echoclub_question_infra/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/echoclub_question/echoclub_question_starter/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="echoclub_question_common" />
+        <module name="echoclub_question_infra" />
+        <module name="echoclub_question_application_job" />
+        <module name="echoclub_question_api" />
+        <module name="echoclub_question_application_controller" />
+        <module name="echoclub_question_domain" />
+        <module name="echoclub_question_starter" />
+        <module name="echoclub_question_application" />
+        <module name="echoclub_question_application_mq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="echoclub-question" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,26 @@
+server:
+  port: 3000
+spring:
+  datasource:
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/echoclub?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSl=true
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 20
+      min-idle: 20
+      max-active: 100
+      max-wait: 60000
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druie/*
+        login-username: admin
+        login-password: 1234
+      filter:
+        stat:
+          enabled: true
+          slow-sql-millis: 2000
+          log-slow-sql: true
+        wall:
+          enabled: true
