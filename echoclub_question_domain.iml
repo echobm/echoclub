@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/echoclub_question/echoclub_question_domain" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/echoclub_question/echoclub_question_domain/src/main" isTestSource="false" />
+    </content>
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="a63f7312-b9f6-4450-8ba8-e98cf1c168de" />
+  </component>
+</module>
