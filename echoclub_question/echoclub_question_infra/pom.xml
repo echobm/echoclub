@@ -9,6 +9,7 @@
     <artifactId>echoclub_question_infra</artifactId>
     <name>Archetype - echoclub_question_infra</name>
     <url>http://maven.apache.org</url>
+<<<<<<< HEAD
 
     <dependencies>
 <!--        jdbc依赖-->
@@ -42,4 +43,6 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+=======
+>>>>>>> origin/day01
 </project>

@@ -9,6 +9,7 @@
     <artifactId>echoclub_question_starter</artifactId>
     <name>Archetype - echoclub_question_starter</name>
     <url>http://maven.apache.org</url>
+<<<<<<< HEAD
 
     <dependencies>
 <!--        springboot starter 依赖-->
@@ -32,4 +33,6 @@
         </dependency>
 
     </dependencies>
+=======
+>>>>>>> origin/day01
 </project>
